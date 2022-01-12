@@ -93,7 +93,7 @@ class HashTable {
 // 测试用例
 let hash = new HashTable()
 hash.set('a', 123)
-hash.set('A ', 'A ')
+hash.set('A ', 'A 发生hash冲突')
 hash.set('b', 345)
 hash.set('c', '你好')
 
@@ -106,7 +106,6 @@ hash.delete('a')
 console.log('===> 删除a节点后 <====')
 console.log(hash.get('a'))
 console.log(hash.get('A '))
-console.log(hash.table)
 
 
 module.exports = HashTable
