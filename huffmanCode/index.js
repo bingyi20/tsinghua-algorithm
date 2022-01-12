@@ -67,6 +67,7 @@ function buildNodeSquence(table) {
     return sequence
 }
 
+
 // 测试用例
 const table = {
     A: 4,
@@ -76,3 +77,6 @@ const table = {
 }
 
 console.log(huffmanDecode(table))
+
+
+export default huffmanDecode
