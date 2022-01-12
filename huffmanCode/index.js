@@ -67,6 +67,7 @@ function buildNodeSquence(table) {
     return sequence
 }
 
+// 测试用例
 const table = {
     A: 4,
     B: 3,
