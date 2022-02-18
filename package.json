@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest"
   },
   "repository": {
     "type": "git",
@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/bingyi20/tsinghua-algorithm/issues"
   },
-  "homepage": "https://github.com/bingyi20/tsinghua-algorithm#readme"
+  "homepage": "https://github.com/bingyi20/tsinghua-algorithm#readme",
+  "dependencies": {
+    "jest": "^27.5.1"
+  }
 }
