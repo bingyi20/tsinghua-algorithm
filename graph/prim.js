@@ -26,13 +26,15 @@ function prim(graph, n) {
 }
 
 function getMinDis(dist) {
-    let ans = Infinity
+    let min = Infinity
+    let ans = -1
     dist.forEach((element, index) => {
-        if(element > 0 && element < ans) {
+        if(element > 0 && element < min) {
+            min = element
             ans = index
         }
     });
-    return ans === Infinity ? -1 : ans
+    return ans
 }
 
 
